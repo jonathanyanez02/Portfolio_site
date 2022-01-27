@@ -1,0 +1,112 @@
+{% extends 'base.html' %}
+{% load static%}
+{% block content %}
+<section class="py-5 bg-persian-green">
+  
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-4 text-center text-md-right">
+        <img src="{% static 'appportfolio/images/photo.png' %}" alt="..." class="img-thumbnail">
+      </div>
+      <div class="col-sm-8">
+        <h6>Hello, My name is</h6>
+        <h1>Jonathan Yanez</h1>
+        <p class="font-weight-light">An aspiring 23 year old from Brooklyn who wants to become a Software Developer for the big companies :). I have experience with Front-end development and some Back-end with proffiency in C++.</p>
+        <a href="https://www.linkedin.com/in/jonathan-yanez-45558114a/" class="btn btn-info bg-crayola">Hire Me</a>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="py-5">
+  
+  <div class="container text-center">
+    <h1 class="font-weight-bold">Overview of Projects</h1>
+    <p>These are some of the projects that i have</p>
+    <div class="row">
+      <!-- Frontend -->
+      <div class="col-lg-4">
+        <div class="card mb-5 mb-lg-0 card-hover-effect">
+          <div class="card-header">
+            
+           </div>
+
+
+          <div class="card-body">
+            <img src="{% static 'appportfolio/images/200x200.png' %}" alt="..." class="img-thumbnail">
+            <a href="https://github.com/jonathanyanez02/CUNY-WINTER-TPP/tree/main/live_filter">Live User Filter</a>
+            
+            
+            
+            <hr>
+           
+          </div>
+        </div>
+      </div>
+   
+      <div class="col-lg-4">
+        <div class="card mb-5 mb-lg-0 card-hover-effect">
+          <div class="card-header">
+            
+          </div>
+
+          <div class="card-body">
+            <img src="{% static 'appportfolio/images/200x202.png' %}" alt="..." class="img-thumbnail">
+            <a href="https://github.com/jonathanyanez02/CUNY-WINTER-TPP/tree/main/digital_clock">Digital Clock</a>
+       
+            <hr>
+            
+          </div>
+        </div>
+      </div>
+      <!-- Others -->
+      <div class="col-lg-4">
+        <div class="card mb-5 mb-lg-0 card-hover-effect">
+          <div class="card-header">
+           
+          </div>
+          <div class="card-body">
+            <img src="{% static 'appportfolio/images/200x203.png' %}" alt="..." class="img-thumbnail">
+            <a href="https://github.com/jonathanyanez02/CUNY-WINTER-TPP/tree/main/expense_tracker">Expense Tracker</a>
+         
+            <hr>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="card mb-5 mb-lg-0 card-hover-effect">
+          <div class="card-header">
+           
+          </div>
+          <div class="card-body">
+            <img src="{% static 'appportfolio/images/200x204.png' %}" alt="..." class="img-thumbnail">
+            <a href="https://github.com/jonathanyanez02/CUNY-WINTER-TPP/tree/main/mealfinder/mealfinder">Meal Filter</a>
+           
+            <hr>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="col-lg-4">
+        <div class="card mb-5 mb-lg-0 card-hover-effect">
+          <div class="card-header">
+           
+          </div>
+          <div class="card-body">
+            <img src="{% static 'appportfolio/images/200x205.png' %}" alt="..." class="img-thumbnail">
+            <a href="https://github.com/jonathanyanez02/CUNY-WINTER-TPP/tree/main/word_length_calculator">Text Length Calculator</a>
+            
+            <hr>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% endblock %}
+{% block hireme %}
+
+{% endblock %}
